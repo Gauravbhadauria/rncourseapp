@@ -14,3 +14,5 @@ class ClassComponent extends Component {
 export default ClassComponent;
 
 //legacy
+
+const element = React.createElement(Text, null, 'hello');

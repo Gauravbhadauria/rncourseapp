@@ -1,12 +1,9 @@
-import {View, Text} from 'react-native';
-import React from 'react';
+import {View, Text, SafeAreaView} from 'react-native';
 
-const NativewindDemo = () => {
+export default function NativewindDemo() {
   return (
-    <View>
-      <Text>NativewindDemo</Text>
-    </View>
+    <SafeAreaView className="flex-1 justify-center items-center bg-red-500">
+      <Text className="text-white text-xl font-bold">Hello Tailwind!</Text>
+    </SafeAreaView>
   );
-};
-
-export default NativewindDemo;
+}

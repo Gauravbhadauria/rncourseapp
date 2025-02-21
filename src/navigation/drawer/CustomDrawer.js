@@ -1,10 +1,17 @@
-import {View, Text, SafeAreaView, Image, TouchableOpacity} from 'react-native';
+import {View, Text, Image, TouchableOpacity} from 'react-native';
 import React from 'react';
+import {SafeAreaView, useSafeAreaInsets} from 'react-native-safe-area-context';
 
 const CustomDrawer = ({navigation}) => {
+  const insets = useSafeAreaInsets();
   return (
     <SafeAreaView
-      style={{flex: 1, backgroundColor: 'white', alignItems: 'center'}}>
+      style={{
+        flex: 1,
+        paddingTop: insets.top,
+        backgroundColor: 'white',
+        alignItems: 'center',
+      }}>
       <Image
         source={require('../../images/user.png')}
         style={{width: 100, height: 100, marginTop: 50}}

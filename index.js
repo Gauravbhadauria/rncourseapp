@@ -10,5 +10,6 @@ import CoreComponents from './src/core-components/CoreComponents';
 import FlexBoxDemo from './src/flexbox/FlexBoxDemo';
 import FlexboxEditor from './src/flexbox/FlexBoxEditor';
 import StackDemo from './src/navigation/stack/StackDemo';
+import DrawerNavigator from './src/navigation/drawer/DrawerNavigator';
 
-AppRegistry.registerComponent(appName, () => StackDemo);
+AppRegistry.registerComponent(appName, () => DrawerNavigator);

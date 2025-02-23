@@ -1,9 +1,12 @@
 import {View, Text} from 'react-native';
 import React from 'react';
-import BottomTabNavigator from '../../bottom-tabs/BottomTabNavigator';
 
 const Home = () => {
-  return <BottomTabNavigator />;
+  return (
+    <View>
+      <Text>Home</Text>
+    </View>
+  );
 };
 
 export default Home;

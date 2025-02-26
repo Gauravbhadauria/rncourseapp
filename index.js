@@ -11,5 +11,7 @@ import FlexBoxDemo from './src/flexbox/FlexBoxDemo';
 import FlexboxEditor from './src/flexbox/FlexBoxEditor';
 import StackDemo from './src/navigation/stack/StackDemo';
 import DrawerNavigator from './src/navigation/drawer/DrawerNavigator';
+import HooksIntro from './src/hooks/HooksIntro';
+import UseStateHookDemo from './src/hooks/UseStateHookDemo';
 
-AppRegistry.registerComponent(appName, () => DrawerNavigator);
+AppRegistry.registerComponent(appName, () => UseStateHookDemo);

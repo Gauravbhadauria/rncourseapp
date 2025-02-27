@@ -13,5 +13,10 @@ import StackDemo from './src/navigation/stack/StackDemo';
 import DrawerNavigator from './src/navigation/drawer/DrawerNavigator';
 import HooksIntro from './src/hooks/HooksIntro';
 import UseStateHookDemo from './src/hooks/UseStateHookDemo';
+import UseEffectHookDemo from './src/hooks/UseEffectHookDemo';
+import UserDetails from './src/hooks/demos/UserDetails';
+import TimersDemo from './src/hooks/demos/TimersDemo';
+import OrientationListener from './src/hooks/demos/ListenerDemo';
+import CategoriesDemo from './src/hooks/demos/CategoriesDemo';
 
-AppRegistry.registerComponent(appName, () => UseStateHookDemo);
+AppRegistry.registerComponent(appName, () => TimersDemo);

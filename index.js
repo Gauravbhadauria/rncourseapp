@@ -18,5 +18,7 @@ import UserDetails from './src/hooks/demos/UserDetails';
 import TimersDemo from './src/hooks/demos/TimersDemo';
 import OrientationListener from './src/hooks/demos/ListenerDemo';
 import CategoriesDemo from './src/hooks/demos/CategoriesDemo';
+import UseRefHook from './src/hooks/UseRefHook';
+import UseContextHook from './src/hooks/UseContextHook';
 
-AppRegistry.registerComponent(appName, () => TimersDemo);
+AppRegistry.registerComponent(appName, () => UseContextHook);

@@ -20,5 +20,8 @@ import OrientationListener from './src/hooks/demos/ListenerDemo';
 import CategoriesDemo from './src/hooks/demos/CategoriesDemo';
 import UseRefHook from './src/hooks/UseRefHook';
 import UseContextHook from './src/hooks/UseContextHook';
+import {useCallback} from 'react';
+import UseCallbackHook from './src/hooks/UseCallbackHook';
+import UseCallbackHook2 from './src/hooks/UseCallbackHook2';
 
-AppRegistry.registerComponent(appName, () => UseContextHook);
+AppRegistry.registerComponent(appName, () => UseCallbackHook2);
